@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: holovision-frontend
+    runtime: static
+    buildCommand: mkdir -p dist && cp index.html styles.css dist/ && cp -R assets dist/assets
+    staticPublishPath: dist
+    domains:
+      - holovisiontechnologies.co.za
