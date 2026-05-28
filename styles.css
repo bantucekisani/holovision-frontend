@@ -650,6 +650,18 @@ textarea {
   width: 100%;
 }
 
+.contact-form .button:disabled {
+  cursor: wait;
+  opacity: 0.68;
+  transform: none;
+}
+
+.form-honey {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
 .form-status {
   min-height: 22px;
   margin: 0;
